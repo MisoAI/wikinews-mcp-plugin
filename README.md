@@ -12,7 +12,7 @@ marketplace files at the root point at it.
 | `.claude-plugin/marketplace.json` | Claude Code |
 | `.agents/plugins/marketplace.json` | Codex |
 | `plugin/.claude-plugin/plugin.json`, `plugin/.mcp.json` | Claude Code |
-| `plugin/.codex-plugin/plugin.json`, `plugin/mcp.codex.json` | Codex |
+| `plugin/.codex-plugin/plugin.json`, `plugin/mcp.json` (portable MCP format) | Codex |
 | `plugin/plugin.json`, `plugin/mcp_config.json` | Antigravity CLI |
 | `plugin/skills/` | every client |
 
