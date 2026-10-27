@@ -1,0 +1,6 @@
+{
+  "name": "wikinews-mcp-plugin",
+  "description": "Connect the Wikinews MCP and teach your assistant to search the archive well.",
+  "version": "0.1.0",
+  "author": { "name": "Miso", "url": "https://miso.ai" }
+}

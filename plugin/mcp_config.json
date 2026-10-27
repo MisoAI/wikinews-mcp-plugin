@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "wikinews": {
+      "serverUrl": "https://wikinews.mcp.miso.ai/mcp"
+    }
+  }
+}

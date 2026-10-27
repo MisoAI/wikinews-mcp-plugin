@@ -1,0 +1,16 @@
+{
+  "name": "wikinews",
+  "owner": { "name": "Miso", "url": "https://miso.ai" },
+  "metadata": {
+    "description": "The Wikinews MCP plugin: the MCP server plus the wikinews-research skill. A Miso product demo.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "wikinews-mcp-plugin",
+      "source": "./plugin",
+      "description": "Connect the Wikinews MCP and teach your assistant to search the archive well.",
+      "category": "productivity"
+    }
+  ]
+}

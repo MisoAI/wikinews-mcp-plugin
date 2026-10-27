@@ -1,0 +1,12 @@
+{
+  "name": "wikinews",
+  "interface": { "displayName": "Wikinews MCP" },
+  "plugins": [
+    {
+      "name": "wikinews-mcp-plugin",
+      "source": { "source": "local", "path": "./plugin" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

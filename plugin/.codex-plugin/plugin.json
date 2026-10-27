@@ -1,0 +1,19 @@
+{
+  "name": "wikinews-mcp-plugin",
+  "version": "0.1.0",
+  "description": "Connect the Wikinews MCP and teach your assistant to search the archive well. A Miso product demo.",
+  "author": { "name": "Miso", "url": "https://miso.ai" },
+  "homepage": "https://wikinews.mcp.miso.ai/",
+  "license": "MIT",
+  "keywords": ["wikinews", "mcp", "news", "research"],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.codex.json",
+  "interface": {
+    "displayName": "Wikinews MCP",
+    "shortDescription": "Search the Wikinews archive from your assistant",
+    "developerName": "Miso",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "websiteURL": "https://wikinews.mcp.miso.ai/"
+  }
+}
