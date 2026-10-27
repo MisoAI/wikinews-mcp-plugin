@@ -7,7 +7,7 @@
     "credential": {
       "type": "string",
       "title": "Wikinews MCP credential",
-      "description": "The credential you were given for the Wikinews MCP (it starts with miso-mcp-). Stored in your system's credential store, never in this plugin.",
+      "description": "The token you were given for the Wikinews MCP (it starts with miso-mcp-). Stored in your system's credential store, never in this plugin.",
       "sensitive": true
     }
   }

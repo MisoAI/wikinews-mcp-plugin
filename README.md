@@ -45,13 +45,13 @@ See https://wikinews.mcp.miso.ai/ for Cursor, Antigravity CLI, Claude Desktop an
 
 `wikinews-token-plugin` is the same MCP and skill, authenticated with a
 credential instead of OAuth, as a customer-brand plugin would be. The credential
-is never in this repo: Claude Code asks for it once and keeps it in the system
+is the app's MCP token (`miso-mcp-…`), nothing else; it is never in this repo: Claude Code asks for it once and keeps it in the system
 credential store; Codex reads it from an environment variable.
 
 Claude Code, one line:
 
 ```
-claude plugin install wikinews-token-plugin --marketplace MisoAI/wikinews-mcp-plugin --config credential=miso-mcp-…
+claude plugin install wikinews-token-plugin --marketplace MisoAI/wikinews-mcp-plugin --config credential=<token>
 ```
 
 (or omit `--config` and paste the credential when Claude Code prompts.)
@@ -59,6 +59,6 @@ claude plugin install wikinews-token-plugin --marketplace MisoAI/wikinews-mcp-pl
 Codex:
 
 ```
-export WIKINEWS_MCP_CREDENTIAL=miso-mcp-…
+export WIKINEWS_MCP_CREDENTIAL=<token>
 codex plugin marketplace add MisoAI/wikinews-mcp-plugin && codex plugin add wikinews-token-plugin@wikinews
 ```
