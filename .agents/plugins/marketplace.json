@@ -1,11 +1,30 @@
 {
   "name": "wikinews",
-  "interface": { "displayName": "Wikinews MCP" },
+  "interface": {
+    "displayName": "Wikinews MCP"
+  },
   "plugins": [
     {
       "name": "wikinews-mcp-plugin",
-      "source": { "source": "local", "path": "./plugin" },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "source": {
+        "source": "local",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "wikinews-token-plugin",
+      "source": {
+        "source": "local",
+        "path": "./plugin-token"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
       "category": "Productivity"
     }
   ]

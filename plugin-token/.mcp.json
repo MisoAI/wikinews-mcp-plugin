@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "wikinews": {
+      "type": "http",
+      "url": "https://wikinews.mcp.miso.ai/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.credential}" }
+    }
+  }
+}

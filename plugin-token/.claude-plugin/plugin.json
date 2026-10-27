@@ -1,0 +1,14 @@
+{
+  "name": "wikinews-token-plugin",
+  "description": "Connect the Wikinews MCP with a credential instead of a sign-in, plus the wikinews-research skill. A Miso product demo of credential-based install.",
+  "version": "0.2.0",
+  "author": { "name": "Miso", "url": "https://miso.ai" },
+  "userConfig": {
+    "credential": {
+      "type": "string",
+      "title": "Wikinews MCP credential",
+      "description": "The credential you were given for the Wikinews MCP (it starts with miso-mcp-). Stored in your system's credential store, never in this plugin.",
+      "sensitive": true
+    }
+  }
+}
